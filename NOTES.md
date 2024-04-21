@@ -46,5 +46,17 @@ PRISMA: It is a typeORM.
 
 4- npx prisma generate -> create typescript types for the schema. So we can directly use these types in our code from the @prisma/client
 
+5- npx prisma migrate deploy -> to apply the existing migrations
+
 5- @Global() -> using this decorator in a module along with the exports property inside @Module decorator ensures that the module is available throughout the project, but make sure it is also imported in the root module i.e the AppModule.
+```
+
+```
+<!--! DTO: Data Transfer Object -->
+An object which can also have validations in it using validation pipes
+
+```
+
+```
+Pipe: Functions that transforms the data
 ```
